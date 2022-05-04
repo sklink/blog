@@ -6,7 +6,7 @@
 .img-circle {
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
-    border-radius: 8px; 
+    border-radius: 8px;
     margin-bottom: 10px;
 }
 
@@ -81,4 +81,33 @@
   .popup{
     width: 70%;
   }
+}
+
+.company-icon {
+  width: 14px;
+  height: 14px;
+  position: relative;
+  top: 2px;
+  margin-right: 2px;
+}
+
+.link-wrapper .link li a svg {
+  margin-right: 2px;
+}
+
+.small-divider {
+  margin: 10px auto 15px;
+}
+
+.sidebar {
+  justify-content: initial;
+}
+
+.sidebar-footer {
+  flex-basis: content;
+  flex-grow: 1;
+  justify-content: end;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
 }
