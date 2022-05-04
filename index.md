@@ -1,72 +1,70 @@
 ---
 layout: default
-title: "Bodun Hu"
+title: "Blog"
 ---
 
 
-My <img class="profile-picture" src="https://cdn.jsdelivr.net/gh/BDHU/bdhu.github.io/assets/img/logo.jpg"> name is Bodun (though I usually go by Edward). I'm a CS PhD student in the [UTNS](https://utns.cs.utexas.edu/) lab at [UT Austin](https://www.utexas.edu/) 🤘.  I am advised by [Aditya Akella](https://www.cs.utexas.edu/~akella/) and work closely with [Neeraja Yadwadkar](https://sites.utexas.edu/neeraja/). Before I started my PhD, I was fortunate enough to collaborate closely with professor [Christopher Rossbach](https://www.cs.utexas.edu/~rossbach/) on heterogeneous computing systems at [SCEA group](https://github.com/utcs-scea). I also worked with professor [Simon Peter](https://homes.cs.washington.edu/~simpeter/) on programmable switches.
-
-My research focuses on the intersection of operating systems, network, and machine learning. I am particularly interested in developing systems for ML, and applying ML techniques to systems.
-
-I obtained both MS and BS in Computer Science at the [UT Austin](https://www.utexas.edu/), where I worked on modernizing GPU benchmarking and accelerating OS kernel access to accelerators.
-
-Visit my [blog](https://www.bodunhu.com/blog/) ✏️ to find out what I've been working on recently as well as other updates.
+My name is Matt. I'm a full-stack startup developer based in Winnipeg.
 
 ---
 
-## Papers
+## Journey to
+#### **Commit HOP Demo**
 
-**Altis: Modernizing GPGPU Benchmarks**  
-<u>Bodun Hu</u>, [Christopher J. Rossbach](https://www.cs.utexas.edu/~rossbach/)  
-In *Proceedings of the 2020 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)*. 2020  
-[pdf](https://ieeexplore.ieee.org/document/9238617) | [video](https://www.youtube.com/watch?v=mRkcmjGzytY) | [code](https://github.com/utcs-scea/altis) | [website](https://utcs-scea.github.io/altis/)
+Whether you're working on a tight budget or have made the decision to hone in an [MVP](https://en.wikipedia.org/wiki/Minimum_viable_product),
+you're going to face the challenge of cutting back scope, often with dramatic effect.
 
-[Complete Publications](./publications)
+The technical challenge of cutting back scope is to create an **extensive solution** that leaves room for **growth without
+friction**. With this, you can timeline growth into the dream scope and that is a powerful tool for generating
+buy-in on your cuts.
 
----
+One of these pieces that often gets cut is support for a first-class experience in both desktop and mobile. This is
+especially true if mobile needs to have a solid experience with a native implementation.
 
-## Teaching Experience
+Before exploring React Native, my solution here was to create a React boilerplate that sits on top of a hybrid mobile
+ecosystem. This, combined with responsive layout design using [Material UI](https://mui.com), allowed me to promise a
+swift path to first-class experience in the environment that had fallen to second-class priority.
 
-Spring 2020: [Multicore Operating System Implementation (378)](https://www.cs.utexas.edu/~simon/378/)
+For mobile-first it is:
 
----
+> The functionality is there, all we need to do is comb through the experience and create larger layouts.
 
-## Awards
+For desktop-first:
 
-2020 ISPASS Student Travel Award  
-[Research Distinction](https://cns.utexas.edu/undergraduate-education/events/cns-distinctions/2020-distinction-winners#bodun-hucomputer-science) by the College of Natural Sciences
+> We just have to wrangle with the App Store release processes and we'll be on our customers' phones.
 
----
+The gap left here is that Hybrid Mobile is second-class in itself. Of all the downsides, animation performance stands
+out to me the most.
 
-## Software
+#### Question: Can React Native provide frictionless growth into cross-platform experiences, as a Hybrid wrapper does?
 
-**[Altis](https://utcs-scea.github.io/altis/)**: a benchmarking suite for heterogeneous systems. The primary goal of this project is to improve and update aspects of existing benchmarking suites which are either insufficient or outdated.
+[Commit](https://commit.dev) has given me the opportunity through the HOP (Hackathon Onboarding Project) to work with
+Expo and React Native to see if I can replicate my approach here for frictionless growth into first-class cross-platform
+experiences.
 
-**[gpuinfo](https://github.com/BDHU/gpuinfo)**: a minimal command-line utility written in Rust for querying GPU status.
+While I was upset to see Material UI is not supported, there are [alternatives](https://reactnativeelements.com/),
+[[2]](https://akveo.github.io/react-native-ui-kitten/), [[3]](https://reactnativepaper.com/). Surprisingly though, none of
+these provided the responsive layout foundation that MUI does,
+[Container](https://mui.com/material-ui/react-container/#main-content) and
+[Grid](https://mui.com/material-ui/react-grid/#main-content).
+
+For this, I decided to build [react-native-responsive-layout](https://www.npmjs.com/package/@sklink/react-native-responsive-layout)
+as a way to learn about any barriers to my cross-platform design aspirations.
+
+#### Can React Native replace Hybrid in it's ability to provide frictionless growth?
+
+I don't have a definitive answer here, though I think the project came out a success. The challenges that came up show
+me that I need to dig deeper into React Native. Though, I'm inclined to think that any tradeoff in time will be minimal.
+
+My [HOP slide deck](https://pitch.com/public/06c5f583-7c6c-4199-ae29-94204861a47f) that talks about the challenges and
+solutions.
 
 ---
 
 ## News
 
-09/01/2021: Officially started my PhD.  
-05/22/2021: **I officially graduated from UT Austin!**  
-05/22/2021: Attending Commencement Ceremony. Webcast is available [here](https://video.ibm.com/recorded/126779814).  
-05/21/2021: Attending CNS Graduate Recognition Moments. More information can be found @ [here](https://utaustin.fullmeasure.io/#/landing/?organization_id=45a81510-031d-467d-b972-378ad8e8d20a&card_id=524594a3-c44a-8da5-6dc5-7ba8abeafef9). Live stream @ [here](https://www.youtube.com/watch?v=ZrM4h9AhfgQ).  
-05/14/2021: Finished everything for my last semester as a Masters student.
+05/04/2022: Blog online
+04/28/2022: Released [react-native-responsive-layout](https://www.npmjs.com/package/@sklink/react-native-responsive-layout) for my HOP demo with Commit today!
+04/20/2022: Officially started with [Commit](https://commit.dev)
 
 [...see all news](./news)
-
----
-
-## Useful Links
-
-[Machine Learning System Resources](https://www.bodunhu.com/blog/posts/machine-learning-system-resources/)  
-[UTNS Lab](https://utns.cs.utexas.edu/)  
-[SCEA Lab](https://github.com/utcs-scea)  
-[Laboratory for Advanced Systems Research](https://www.cs.utexas.edu/lasr/)  
-[Misc.](/misc)  
-[Notes](https://pages.github.austin.utexas.edu/bh28324/notes/)
-
----
-
-<img style="width:350px;" src="/assets/img/wordcloud.svg"/>

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.bodunhu.com/sitemap.xml
+Sitemap: https://blog.mattdoak.ca/sitemap.xml
