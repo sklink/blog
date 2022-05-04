@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3fc6270-455a-4b35-b1e5-e2b191b07bb8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNAME" beforeDir="false" afterPath="$PROJECT_DIR$/CNAME" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/profile-pic.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/head-custom.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/head-custom.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/logo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/wordcloud.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cv.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/misc.md" beforeDir="false" afterPath="$PROJECT_DIR$/misc.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news.md" beforeDir="false" afterPath="$PROJECT_DIR$/news.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/publications.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/robots.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +45,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/img" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/img" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -67,7 +57,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1651630614631</updated>
-      <workItem from="1651630615796" duration="8426000" />
+      <workItem from="1651630615796" duration="8905000" />
     </task>
     <servers />
   </component>
