@@ -88,11 +88,19 @@
   height: 14px;
   position: relative;
   top: 2px;
-  margin-right: 2px;
+  margin-right: 4px;
 }
 
-.link-wrapper .link li a svg {
-  margin-right: 2px;
+.link-wrapper .link li svg {
+  margin-right: 4px;
+  position: relative;
+  top: 2px;
+  width: 14px;
+  height: 14px;
+}
+
+.link-wrapper .link li a {
+  color: #333;
 }
 
 .small-divider {

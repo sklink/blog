@@ -4,10 +4,8 @@ title: "Blog"
 ---
 
 
-My name is Matt Doak. I'm a full-stack developer based in Winnipeg.
-
-This blog covers:
-* technology application within startups;
+Random learnings and thoughts while working as a full-stack startup developer.
+{: style="color:gray; font-style: italic; text-align: center;"}
 
 ---
 

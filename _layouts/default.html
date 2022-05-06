@@ -42,7 +42,7 @@
           {% if site.blank_title %}
             <h1>{{ site.title | default: site.github.repository_name }}</h1>
           {% else %}
-            <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+            <h1><a target="_blank" href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
           {% endif %}
 
           {% if site.email %}
@@ -51,21 +51,30 @@
 
           <p>{{ site.description | default: site.github.project_tagline }}</p>
 
-          {% include sidebar.html %}
+          <div class="link-wrapper">
+            <hr class="small-divider" />
 
+            <ul class="link">
+              {%- for platform in site.sidebar %}
+              <li>{{platform.icon}}&nbsp;<a target="_blank" href="{{ platform.link }}" rel="me">{{ platform.name }}</a></li>
+              {%- endfor %}
+            </ul>
+          </div>
+
+          <div class="link-wrapper">
+            <hr class="small-divider" />
+
+            <ul class="link">
+              {%- for company in site.companies %}
+              <li>{{company.icon}}&nbsp;<a target="_blank" href="{{ company.link }}" rel="me">{{ company.name }}</a></li>
+              {%- endfor %}
+            </ul>
+          </div>
         </header>
 
         {% include links-mobile.html %}
 
-        <div class="link-wrapper">
-          <hr class="small-divider" />
 
-          <ul class="link">
-            {%- for company in site.companies %}
-            <li>{{company.icon}}&nbsp;<a href="{{ company.link }}" rel="me">{{ company.name }}</a></li>
-            {%- endfor %}
-          </ul>
-        </div>
 
         <div class="sidebar-footer">
 
