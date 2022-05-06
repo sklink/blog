@@ -23,7 +23,7 @@ One of these pieces that often gets cut is support for a first-class experience 
 especially true if mobile needs to have a solid user experience with a native implementation.
 
 Before exploring React Native, my solution here was to create a React boilerplate that sits on top of a hybrid mobile
-ecosystem. This, combined with responsive layout design using [Material UI](https://mui.com){:target="_blank"}, allowed me to promise a
+ecosystem. This, combined with responsive layout design using [Material UI (MUI)](https://mui.com){:target="_blank"}, allowed me to promise a
 swift path to first-class experience in the environment that had fallen to second-class priority.
 
 The gap left here is that Hybrid Mobile is second-class in itself. Of all the downsides, animation performance stands
@@ -35,7 +35,7 @@ out to me the most.
 Expo and React Native to see if I can replicate my approach here for frictionless growth into first-class cross-platform
 experiences.
 
-While my crutch, Material UI, is not supported, there are [alternatives](https://reactnativeelements.com/){:target="_blank"},
+While my crutch, MUI, is not supported, there are [alternatives](https://reactnativeelements.com/){:target="_blank"},
 [[2]](https://akveo.github.io/react-native-ui-kitten/){:target="_blank"}, [[3]](https://reactnativepaper.com/){:target="_blank"}.
 Surprisingly though, none of these provided the responsive layout foundation that MUI does,
 [Container](https://mui.com/material-ui/react-container/#main-content){:target="_blank"} and
