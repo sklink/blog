@@ -44,7 +44,7 @@ Surprisingly though, none of these provided the responsive layout foundation tha
 For this, I decided to build [react-native-responsive-layout](https://www.npmjs.com/package/@sklink/react-native-responsive-layout){:target="_blank"}
 as a way to learn about any barriers to my cross-platform design aspirations.
 
-#### Can React Native replace Hybrid in its ability to provide frictionless growth?
+#### Answer: Likely... though some trade-offs. Come back later for a comprehensive answer!
 
 I don't have a definitive answer here, though I think the project came out a success. The challenges that came up
 demonstrated that I need to dig deeper into React Native. Though, I'm inclined to think that any tradeoff in time for a
